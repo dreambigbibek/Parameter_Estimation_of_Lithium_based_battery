@@ -46,12 +46,12 @@ root/
 ```bash
 git clone https://github.com/dreambigbibek/Parameter_Estimation_of_Lithium_based_battery.git
 cd Parameter_Estimation_of_Lithium_based_battery
-
+```
 ### 2. Run the scripts
 
 For MATLAB:
 
-run("suiksha/parameter_three_RC.slx")
+run("./parameter_three_RC.slx")
 
 ### 3. View results
 
