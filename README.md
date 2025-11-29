@@ -47,20 +47,20 @@ root/
 git clone https://github.com/dreambigbibek/Parameter_Estimation_of_Lithium_based_battery.git
 cd Parameter_Estimation_of_Lithium_based_battery
 
-###2. Run the scripts
+### 2. Run the scripts
 
 For MATLAB:
 
 run("suiksha/parameter_three_RC.slx")
 
-###3. View results
+### 3. View results
 
 All plots and extracted model parameters will appear inside:
 
 recent model/plots/
 results/
 
-##HPPC Data Summary
+## HPPC Data Summary
 
 Hybrid Pulse Power Characterization tests provide:
 
@@ -70,15 +70,15 @@ recovery voltage profile
 
 SOC-dependent behavior
 
-##basis for identifying R0, R1, R2 and C1, C2, C3
+## basis for identifying R0, R1, R2 and C1, C2, C3
 
 These values are used to construct the complete Three-RC model.
 
-Example Visuals (add once you push your images)
-![Current and voltage curve](Battery voltage and current curve.jpg)
-![Model Fit](Battery parameter estimation model diagram.jpg)
+Example Visuals 
+![Current and voltage curve](./Battery voltage and current curve.jpg)
+![Model Fit](./Battery parameter estimation model diagram.jpg)
 
-##Why This Model Matters
+## Why This Model Matters
 
 Accurate parameter estimation helps improve:
 
@@ -92,7 +92,7 @@ Remaining useful life (RUL) estimation
 
 Battery performance simulation
 
-##Roadmap
+## Roadmap
 
 Add EKF-based SOC estimation
 Add cycle aging analysis
